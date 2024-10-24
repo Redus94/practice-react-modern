@@ -1,1 +1,20 @@
-{}
+{
+    "parser": "@babel/eslint-parser",
+    "extends": ["airbnb", "airbnb/hooks", "prettier"],
+    "rules": {
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [".js"]
+            }
+        ],
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/state-in-constructor": [1, "never"]
+    },
+    "globals": {
+        "window": true,
+        "document": true
+    }
+}
