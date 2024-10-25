@@ -1,4 +1,4 @@
-const taskNumber = '02';
+const taskNumber = '03';
 // numer przerabianego zadania
 
 const ESLintPlugin = require('eslint-webpack-plugin');
